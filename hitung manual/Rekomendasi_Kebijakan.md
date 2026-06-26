@@ -19,8 +19,8 @@
 ### bedanya hanya orang akan menjadi lebih cepat sembuh. Total infeksi kumulatifnya ∫I(t)dt = 450.403 orang selama simulasi 200 hari.
 ### masih jauh lebih tinggi dibanding karantina maupun vaksinasi, dengan puncak epidemi di hari ke-85.
 
-### Dari ketiga skenario, karantina dan vaksinasi paling efektif jika tujuannya untuk menekan total jumlah orang yang sakit,
-### dengan selisih yang tidak terlalu jauh (43.846 dengan 50.222 hari-orang). Tapi jika mau wabahnya dapat terkendali (Reff < 1),
-### satu intervensi aja tidak akan cukup karena ketiga skenario masih menghasilkan Reff > 1. Kombinasi vaksinasi + karantina adalah
-### pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. Hal ini dikarenakan satu untuk mengurangi S₀,
-### dan satu lagi untuk mengurangi β sehingga Reff bisa didorong di bawah 1.
+## Dari ketiga skenario, karantina dan vaksinasi paling efektif jika tujuannya untuk menekan total jumlah orang yang sakit,
+## dengan selisih yang tidak terlalu jauh (43.846 dengan 50.222 hari-orang). Tapi jika mau wabahnya dapat terkendali (Reff < 1),
+## satu intervensi aja tidak akan cukup karena ketiga skenario masih menghasilkan Reff > 1. Kombinasi vaksinasi + karantina adalah
+## pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. Hal ini dikarenakan satu untuk mengurangi S₀,
+## dan satu lagi untuk mengurangi β sehingga Reff bisa didorong di bawah 1.
