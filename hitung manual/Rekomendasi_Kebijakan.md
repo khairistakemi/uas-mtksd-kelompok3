@@ -10,8 +10,8 @@
 ## **B. Karantina (nilai β dikurangi 50%)**
 #### Jika kontak fisik antar individu dibatasi setengahnya, nilai β turun dari 0,25 jadi 0,125. Hal tersebut akan menurunkan nilai R₀ menjadi 1,2500.
 #### Dari ketiga skenario, karantina paling efektif menurunkan total beban infeksi dengan ∫I(t)dt = 50.222 orang selama simulasi kurang dari 200 hari.
-### dan puncak epidemi baru tercapai di hari ke-200 (ujung simulasi), artinya penyebaran sangat melambat.
-### Kelemahannya susah diterapkan jangka panjang karena akan mengganggu perputaran ekonomi dan aktivitas sehari-hari.
+#### dan puncak epidemi baru tercapai di hari ke-200 (ujung simulasi), artinya penyebaran sangat melambat.
+#### Kelemahannya susah diterapkan jangka panjang karena akan mengganggu perputaran ekonomi dan aktivitas sehari-hari.
 
 ## **C. Pengobatan (nilai γ dinaikkan 50%)**
 #### Jika orang dapat disembuhkan lebih cepat, γ naik dari 0,10 jadi 0,15 dan R₀ menurun jadi 1,6667.
@@ -19,8 +19,8 @@
 #### bedanya hanya orang akan menjadi lebih cepat sembuh. Total infeksi kumulatifnya ∫I(t)dt = 450.403 orang selama simulasi 200 hari.
 #### masih jauh lebih tinggi dibanding karantina maupun vaksinasi, dengan puncak epidemi di hari ke-85.
 
-## **Dari ketiga skenario, karantina dan vaksinasi paling efektif jika tujuannya untuk menekan total jumlah orang yang sakit,**
-## **dengan selisih yang tidak terlalu jauh (43.846 dengan 50.222 hari-orang). Tapi jika mau wabahnya dapat terkendali (Reff < 1),**
-## **satu intervensi aja tidak akan cukup karena ketiga skenario masih menghasilkan Reff > 1. Kombinasi vaksinasi + karantina adalah**
-## **pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. Hal ini dikarenakan satu untuk mengurangi S₀,**
-## **dan satu lagi untuk mengurangi β sehingga Reff bisa didorong di bawah 1.**
+### **=> Dari ketiga skenario, karantina dan vaksinasi paling efektif jika tujuannya untuk menekan total jumlah orang yang sakit,**
+### **dengan selisih yang tidak terlalu jauh (43.846 dengan 50.222 hari-orang). Tapi jika mau wabahnya dapat terkendali (Reff < 1),**
+### **satu intervensi aja tidak akan cukup karena ketiga skenario masih menghasilkan Reff > 1. Kombinasi vaksinasi + karantina adalah**
+### **pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. Hal ini dikarenakan satu untuk mengurangi S₀,**
+### **dan satu lagi untuk mengurangi β sehingga Reff bisa didorong di bawah 1.**
