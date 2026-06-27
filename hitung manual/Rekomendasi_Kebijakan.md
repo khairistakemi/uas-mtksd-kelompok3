@@ -2,25 +2,23 @@
 #### Dari hasil simulasi ketiga skenario, dapat dilihat masing-masing intervensi memiliki efek yang berbeda terhadap penyebaran penyakit.
 
 ## **A. Vaksinasi 50%**
-#### Jika setengah populasi diberikan vaksin sebelum wabah dimulai, otomatis jumlah orang yang bisa tertular (S₀) langsung turun dari 99.990 menjadi 49.990.
-#### Akibatnya, R₀ tetap 2,5000 namun Reff-nya menjadi 1,2498 karena virusnya "kehabisan target". Total infeksi kumulatif ∫I(t)dt = 43.846 orang 
-#### selama simulasi 200 hari. Masalahnya, Reff masih di atas 1, artinya wabah tetap terjadi, namun penyebarannya menjadi lebih lambat.
-#### Supaya wabah beneran terhenti, vaksinasi minimalnya harus 60% (ini disebut herd immunity threshold, rumusnya 1 − 1/R₀).
+#### Vaksinasi sebesar 50% berhasil menekan total beban infeksi menjadi 43.846 orang selama 200 hari simulasi dan memperlambat
+#### laju penyebaran karena jumlah individu rentan langsung berkurang dari 99.990 menjadi 49.990 jiwa, sehingga virus "kehabisan target". 
+#### Namun nilai Reff yang masih sebesar 1,2498 menunjukkan bahwa wabah belum sepenuhnya terkendali. Untuk benar-benar menghentikan 
+#### wabah melalui jalur ini, cakupan vaksinasi minimal harus mencapai 60% sesuai ambang kekebalan kelompok yang dihitung dari rumus 1 − 1/R₀.
 
 ## **B. Karantina (nilai β dikurangi 50%)**
-#### Jika kontak fisik antar individu dibatasi setengahnya, nilai β turun dari 0,25 jadi 0,125. Hal tersebut akan menurunkan nilai R₀ menjadi 1,2500.
-#### Dari ketiga skenario, karantina paling efektif menurunkan total beban infeksi dengan ∫I(t)dt = 50.222 orang selama simulasi kurang dari 200 hari.
-#### dan puncak epidemi baru tercapai di hari ke-200 (ujung simulasi), artinya penyebaran sangat melambat.
-#### Kelemahannya susah diterapkan jangka panjang karena akan mengganggu perputaran ekonomi dan aktivitas sehari-hari.
+#### Karantina dengan penurunan β sebesar 50%, dari 0,25 menjadi 0,125, terbukti paling efektif dalam memperlambat penyebaran karena puncak epidemi 
+#### bahkan belum tercapai hingga hari ke-200 sebagai ujung periode simulasi, dengan total beban infeksi sebesar 50.222 orang. Meskipun angka 
+#### ini sedikit lebih tinggi dibanding vaksinasi, laju penyebaran berhasil ditekan secara signifikan. Kelemahannya terletak pada
+#### sulitnya penerapan jangka panjang mengingat dampaknya terhadap aktivitas ekonomi dan sosial masyarakat.
 
 ## **C. Pengobatan (nilai γ dinaikkan 50%)**
-#### Jika orang dapat disembuhkan lebih cepat, γ naik dari 0,10 jadi 0,15 dan R₀ menurun jadi 1,6667.
-#### Ini yang paling lemah di antara tiga skenario karena virusnya tetap menyebar dengan sama cepatnya,
-#### bedanya hanya orang akan menjadi lebih cepat sembuh. Total infeksi kumulatifnya ∫I(t)dt = 450.403 orang selama simulasi 200 hari.
-#### masih jauh lebih tinggi dibanding karantina maupun vaksinasi, dengan puncak epidemi di hari ke-85.
+#### Peningkatan laju kesembuhan sebesar 50% melalui perbaikan pengobatan, yang menaikkan γ dari 0,10 menjadi 0,15, memberikan pengaruh 
+#### paling terbatas di antara ketiga skenario. Meskipun R₀ turun menjadi 1,6667, total beban infeksi justru paling tinggi, mencapai 450.403 orang 
+#### dengan puncak epidemi terjadi pada hari ke-85, karena laju penularan tidak ikut ditekan dan virus tetap menyebar dengan kecepatan yang sama.
 
-### **=> Dari ketiga skenario, karantina dan vaksinasi paling efektif jika tujuannya untuk menekan total jumlah orang yang sakit,**
-### **dengan selisih yang tidak terlalu jauh (43.846 dengan 50.222 hari-orang). Tapi jika mau wabahnya dapat terkendali (Reff < 1),**
+### **=> Secara keseluruhan, tidak ada satu pun dari ketiga intervensi yang mampu mendorong Reff di bawah 1 secara mandiri. Oleh karena itu,**
 ### **satu intervensi aja tidak akan cukup karena ketiga skenario masih menghasilkan Reff > 1. Kombinasi vaksinasi + karantina adalah**
-### **pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. Hal ini dikarenakan satu untuk mengurangi S₀,**
-### **dan satu lagi untuk mengurangi β sehingga Reff bisa didorong di bawah 1.**
+### **pilihan terbaik karena keduanya menekan dari kedua sisi sekaligus. yakni mengurangi jumlah individu rentan melalui vaksinasi**
+### **sekaligus memperlambat laju penularan melalui karantina, sehingga Reff dapat ditekan hingga di bawah ambang kendali epidemi.**
