@@ -106,6 +106,9 @@ fprintf('Deret Taylor Orde 2 : Galat = %.4f %%\n', err_t2);
 fprintf('Deret Taylor Orde 3 : Galat = %.4f %%\n', err_t3);
 fprintf('Deret Taylor Orde 4 : Galat = %.4f %%\n', err_t4);
 fprintf('Metode Euler        : Galat = %.4f %%\n', err_euler);
+fprintf('Runge-Kutta Orde 4  : Galat = 0.0000 %% (Acuan)\n');
+disp('--------------------------------------------------');
+fprintf('Jumlah Terinfeksi RK4 (t=10): %.4f jiwa\n', I_sebenarnya(end));
 disp('==================================================');
 
 
