@@ -31,3 +31,4 @@ xlabel('Waktu (hari)');
 ylabel('Populasi');
 title('Simulasi Model SIR');
 grid on;
+end
