@@ -31,9 +31,3 @@ xlabel('Waktu (hari)');
 ylabel('Populasi');
 title('Simulasi Model SIR');
 grid on;
-
-% Menampilkan hasil verifikasi
-fprintf('Nilai awal N: %d\n', sum(y0));
-fprintf('Nilai akhir N: %.2f\n', total_pop(end));
-fprintf('Perubahan maksimum (N - total_pop): %e\n', max(abs(N - total_pop)));
-end
